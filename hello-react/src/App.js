@@ -5,7 +5,7 @@ import MyComponent from "./MyComponent";
 
 class App extends Component {
   render() {
-    return <MyComponent name="react">없어용</MyComponent>;
+    return <MyComponent name="react" favorite={1} />;
   }
 }
 
