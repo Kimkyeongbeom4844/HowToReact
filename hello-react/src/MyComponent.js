@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
-const MyComponent = ({ grade, children, name, job }) => {
+const MyComponent = ({ grade, name, children, job }) => {
+  // const { grade, name, children, job } = props;
   return (
     <div>
       안녕하세요 제 이름은 {grade}학번 {name}입니다.
